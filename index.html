@@ -1,0 +1,318 @@
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        
+        .row.content {
+            height: 1500px
+        }
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+        /* Set black background color, white text and some padding */
+        
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 400px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+
+        <div class="navbar navbar-dark  box-shadow d-flex">
+            <div>
+                <a href="#" class="navbar-brand d-flex align-items-center" style="width: 200px;background-color: blue; color: #f1f1f1;">
+                    SIAAF
+                </a>
+            </div>
+            <div class="container d-flex justify-content-between col-md-1">
+
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav" id="yui_3_17_2_1_1610132133241_22"><i class="icon fa fa-bars fa-fw " aria-hidden="true"></i><span class="sr-only">Panel lateral</span>
+                            <span></span>
+                            <span></span>
+                            <span id="yui_3_17_2_1_1610132133241_21"></span>
+            
+                        </button>
+            </div>
+
+            <div class="container d-flex justify-content-between col-md-7">
+
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                            Sistema de Informacion Academica, Administrativo y Financiero
+                        </a>
+
+
+
+            </div>
+            <div class="container d-flex justify-content-between col-md-2">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                   Byron Herrera
+                </a>
+            </div>
+
+        </div>
+        <div class="row content">
+
+            <div class="col-sm-2 sidenav">
+
+                <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#section2">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Academico</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Manuales</a>
+                        <div class="nav flex-column">
+                            <a class="dropdown-item" href="#">Introducción</a>
+                            <a class="dropdown-item" href="#">Funcionario </a>
+                            <a class="dropdown-item" href="#">Programa Analitico silabo(Director/Gestor)</a>
+                            <a class="dropdown-item" href="#">Programa Analitico (Consejo Constructivo)</a>
+                            <a class="dropdown-item" href="#">Silabo</a>
+
+                        </div>
+                    </li>
+                </ul><br>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search Blog..">
+                    <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    </span>
+                </div>
+            </div>
+
+            <div class="container p-0">
+
+
+                <h1 class="h3 mb-3">Bienvenido</h1>
+
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-12 col-md-6 col-lg-3" style="border: solid 1px; height: 500px;">
+                        <div class="card">
+
+                            <div class="card-header px-4 pt-4">
+                                <h2 class="card-title mb-0">Datos de cuenta</h5>
+
+                            </div>
+                            <div class="card-body px-4 pt-2">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <h5><strong>Fotografia</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1200px-User_icon_2.svg.png" width="40px" height="40px">
+                                        <a href="#">Actualizar</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <h5><strong>Nombre de Usuario</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <h5>Byron Herrera</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <h5><strong>Correo electronico</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+
+                                        <h5>byron.herrera@unl.edu.ec</h5>
+                                        <i class="fas fa-check"></i>
+
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <h5><strong><h5><strong>Activo</strong></h5>
+                                        </strong>
+                                        </h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Tarjeta2-->
+                    <div class="col-12 col-md-6 col-lg-3" style="border: solid 1px; height: 500px;">
+                        <div class="card">
+
+                            <div class="card-header px-4 pt-4">
+                                <h2 class="card-title mb-0">Informacion personal</h5>
+
+                            </div>
+                            <div class="card-body px-4 pt-2">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Informacion familiar y contactos</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Informacion personal</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Correo Direccion y telefonos</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <button type="button" class="btn btn-lg btn-primary" disabled>Ir a perfil</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta3-->
+                    <div class="col-12 col-md-6 col-lg-3" style="border: solid 1px; height: 500px;">
+                        <div class="card">
+
+                            <div class="card-header px-4 pt-4">
+                                <h2 class="card-title mb-0">Funcionario</h5>
+
+                            </div>
+                            <div class="card-body px-4 pt-2">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5>Acceso ala seccion como funcionario de la UNL</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Formacion Academical</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Capacitacion</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Produccion cientifica</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Trayectoria laboral</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <br>
+                                        <div class="badge bg-success my-2">Listo</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Servidor</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5><strong>Docente</strong></h5>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <button type="button" class="btn btn-lg btn-primary" disabled>Ir a perfil</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
